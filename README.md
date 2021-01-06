@@ -47,9 +47,11 @@ Exemplo de resposta:
 Esse endpoint é responsável por retornar um game de acordo com o parâmetro de :id informado na rota.
 #### Parametros
 deve ser informado o parametro :id na rota.
-Exemplo de chamada:
-/game/10
 
+Exemplo de chamada:
+```
+/game/10
+```
 #### Respostas
 ##### OK| 200
 Caso esta resposta aconteça você irá receber o json do game do id informado na rota.
@@ -114,12 +116,15 @@ Esse endpoint é responsável por salvar um game no banco de dados.
 title: titulo do game
 price: preço do game
 year: ano do game
+
 Exemplo:
+```
 {
     "title" : "Spider Man",
     "price" : 240,
     "year" : 2020
 }
+```
 #### Respostas
 ##### OK| 200
 Caso esta resposta aconteça o game foi salvo no banco de dados.
