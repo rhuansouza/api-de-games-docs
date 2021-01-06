@@ -114,7 +114,9 @@ Exemplo de resposta:
 Esse endpoint é responsável por salvar um game no banco de dados.
 #### Parametros
 title: titulo do game
+
 price: preço do game
+
 year: ano do game
 
 Exemplo:
